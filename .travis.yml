@@ -10,7 +10,6 @@ script:
     - hexo config theme $THEME_NAME
     - hexo generate
 after_success:
-    - cd "$TRAVIS_BUILD_DIR"
     - cd public
     - git init
     - git add .
