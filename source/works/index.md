@@ -32,10 +32,10 @@ comments: false
 
 + [汇编与接口技术课内实验报告](/pdf/2016/11/27/x86_ASM.pdf)
     西安交通大学 软件工程 2014 级 汇编与接口技术 课内实验报告
-    $\LaTeX$ 排版，内含CC-BY-NC开源协议。
+    LaTeX 排版，内含CC-BY-NC开源协议。
     2016 年 11 月。
 
 + [MMX 加速图像融合实验报告](pdf/2016/12/06/Image_Fusion_with_MMX.pdf)
     西安交通大学 软件工程 2014 级 计算机组成与结构 课内实验报告
-    $\LaTeX$ 排版，内含CC-BY-NC开源协议。
+    LaTeX 排版，内含CC-BY-NC开源协议。
     2016 年 12 月。
