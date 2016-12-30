@@ -6,6 +6,8 @@ before_install:
     - git config --global user.name $GITHUB_USERNAME
     - npm i hexo-cli -g
     - hexo init
+script:
+    - hexo generate
 after_success:
     - cd "$TRAVIS_BUILD_DIR"
     - cd public
