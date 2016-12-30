@@ -7,7 +7,7 @@ tags:
 
 介绍一下我是怎么使用 Hexo 的。
 
-我希望：
+我希望它具有这样的特性：
 
 + 快速部署
 
@@ -15,15 +15,18 @@ tags:
 
 + 自动部署
 
-  不需要手动使用 `hexo deploy` 进行部署。只需要将源码传到 GitHub 上，它就能自动帮我部署。
+  不需要手动使用 `hexo deploy` 进行部署。只需要将源码传到 GitHub 上，它就能自动部署。
 
 + 免安装
 
-  在没有 node.js 环境与 hexo 命令行工具（~~甚至没有 Git 时~~），也能编写/发布博客。
+  在没有 node.js 环境与 hexo 命令行工具，甚至没有 Git 时，也能编写/发布博客。
+
 
 <!--more-->
 
-接下来从零开始搭建博客！
+# 搭建博客
+
+接下来介绍如何从零开始，无须配置环境，纯靠浏览器搭建你自己的博客。
 
 1. 注册一个 [GitHub](https://github.com) 账号。
 
@@ -213,4 +216,21 @@ tags:
    然后你就可以访问你的博客了：`https://<username>.github.io`。
 
 11. Have fun with GitHub & Travis CI & Hexo!
+
+
+## 自定义的域名
+
+创建 `source/CNAME` ，在其中写入一行，如我的域名是 `zccz14.com`
+
+那么 CNAME 文件：
+
+```
+zccz14.com
+```
+
+就这样一行。
+
+然后 GitHub 就会将之前的 `<username>.github.io` 重定向到这个域名上。
+
+当然，你也需要在你的域名提供商那里创建规则，将请求导向 GitHub Pages 服务。
 
