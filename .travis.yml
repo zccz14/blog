@@ -1,0 +1,15 @@
+language: node_js
+node_js: 
+    - "6"
+before_install:
+    - git config --global user.email $GITHUB_EMAIL
+    - git config --global user.name $GITHUB_USERNAME
+    - npm i hexo-cli -g
+    - hexo init
+after_success:
+    - cd "$TRAVIS_BUILD_DIR"
+    - cd public
+    - git init
+    - git add .
+    - git commit -m "Travis Deploy"
+    - git push -f -q https://$GITHUB_USERNAME:$GITHUB_PASSWORD@github.com/$GITHUB_USERNAME/$GITHUB_USERNAME.github.io master
