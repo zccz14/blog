@@ -51,7 +51,9 @@ tags:
       + GITHUB_PASSWORD: GitHub 的密码
 
         确保此项的 `Display value in build log` 为关闭状态，否则你的密码可能会泄露。
-
+        
+        此项利用 GitHub 的 Personal Access Token 取代也是可以的，如果你觉得直接输入密码不妥的话。
+      
       + GITHUB_EMAIL: GitHub 的邮箱
 
         如果能看懂接下来的配置脚本的话，可以更改此处邮箱的含义；否则，按照我推荐的来填。
@@ -62,8 +64,8 @@ tags:
 
       + THEME_NAME: 主题名
 
-        Hexo Theme 的主题名，如果你不知道应该填什么，就填一个`next` 
-
+        Hexo Theme 的主题名，如果你不知道应该填什么，就填一个`next`，其实这一项是什么根本无所谓。
+        
 7. 回到 GitHub 的 blog，创建文件 `package.json`：
 
    ```json
