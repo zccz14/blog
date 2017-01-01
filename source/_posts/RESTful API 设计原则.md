@@ -11,7 +11,38 @@ API，应用程序接口(Application Programming Interface)，是**数据服务�
 
 一般而言，好的 API 设计一般有很多细节需要考虑，且一旦发布以后就不能随意更改，一旦修改造成原有服务的失效，是一种背弃诺言的行为。但随着时间的推移，变化又是必不可免的。如何设计API使得其具有更高的可用性，是一种设计模式，也是一种艺术，一种哲学。
 
+API 设计的终极目标就是尽可能地提升**易用性**。
+
+> The easier your API is to consume, the more people that will consume it.
+>
+> 易用的API会有更多人用。
+
+
+
 <!--more-->
+
+# API 设计模式
+
+## 什么是 API 设计模式
+
+以 HTTP 协议为载体的 API 有几个重要的部分组成：
+
++ 请求
+  + 请求头
+    + URL
+    + 请求方法
+  + 请求正文
++ 响应
+  + 响应头
+  + 响应正文
+
+API的设计是考虑**如何利用这些部分来组织信息**。
+
+API的设计模式是指API设计的方法论。
+
+RESTful API 就是一种经典的 API 设计模式。
+
+## RESTful API
 
 RESTful API 的设计需要考虑以下方面的问题：
 
