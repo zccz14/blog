@@ -51,8 +51,8 @@ tags:
       + GITHUB_PASSWORD: GitHub 的密码
 
         确保此项的 `Display value in build log` 为关闭状态，否则你的密码可能会泄露。
-        
-        此项利用 GitHub 的 Personal Access Token 取代也是可以的，如果你觉得直接输入密码不妥的话。
+
+        此项利用 GitHub 的 Personal Access Token 取代也是可以的，如果你觉得直接输入密码不妥的话。
 
       + GITHUB_EMAIL: GitHub 的邮箱
 
@@ -65,7 +65,7 @@ tags:
       + THEME_NAME: 主题名
 
         Hexo Theme 的主题名，如果你不知道应该填什么，就填一个`next`，其实这一项是什么根本无所谓。
-        
+​        
 7. 回到 GitHub 的 blog，创建文件 `package.json`：
 
    ```json
@@ -193,7 +193,7 @@ tags:
 
 10. 最后，新建一个 `.travis.yml` ，并写入：
 
-   ```yaml
+```yaml
    language: node_js
    node_js: 
        - "6"
@@ -211,7 +211,7 @@ tags:
        - git add .
        - git commit -m "Travis Deploy"
        - git push -f -q https://$GITHUB_USERNAME:$GITHUB_PASSWORD@github.com/$GITHUB_USERNAME/$GITHUB_USERNAME.github.io master
-   ```
+```
 
    然后你可以上 Travis CI 看它构建的过程，它会在最后将构建出来的东西推送到 `<username>.github.io` 那个Repository上，GitHub Pages服务会提供给你一个子域名：`<username>.github.io` 。
 
