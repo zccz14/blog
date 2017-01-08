@@ -259,3 +259,69 @@ zccz14.com
 
 有了主题的 URI 以后，直接到 Travis CI 里修改对应 Repository 的 Settings 中的环境变量 `THEME_URI` 即可。至于这个 `THEME_NAME` 要不要改其实基本没有什么区别。
 
+# 写作
+
+## 使用移动设备
+
+并不是所有博客都要长篇大论。
+
+有时候想发条说说，但是手边只有手机，怎么办？
+
+手边没有 `git`, 更别说 `node` 了……你说用手机`ssh`连云服务器？
+
+嘛……好不好用……谁用谁知道。
+
+根据上述搭建教程，其实你可以通过 GitHub 的 Web UI 来书写你的博客。
+
+GitHub Mobile Version 似乎是没有编辑功能的，但是有可以切换到 GitHub Desktop Version 的链接。
+
+然后你就可以编辑文件了。
+
+## 页面内嵌 PDF
+
+有时候还是想在页面内嵌入 PDF 文档的。
+
+原理很简单，使用 iframe 标签即可。
+
+```html
+<iframe src="your_pdf_url" style="width:100%; height:800px"></iframe>
+```
+
+例子如下：
+
+```html
+<iframe src="/pdf/2016/12/06/Image_Fusion_with_MMX.pdf" style="width:100%; height:800px"></iframe>
+```
+
+但是由于 PDF 的大小问题，请放在**阅读全文**中再加载，否则文章列表的加载速度会变慢。
+
+即放于 `<!--more-->` 标签之后。
+
+## 页面内嵌网易云播放器
+
+音乐播放器哪家强？网易云音乐。
+
+音乐播放器我就服网易云。
+
+到你网易云客户端里面选中你要分享的歌曲，应该有一个链接分享的选项。
+
+链接中包含了歌曲的ID。
+
+可以生成外链播放器，原理也是 iframe。
+
+```html
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=562010&auto=0&height=66"></iframe>
+```
+
+这个 iframe 配置的例子其实已经很清楚了，可以自己改改。
+
+### 自动播放
+
+`src` 里面的`auto` 是控制是否自动播放的选项，一般设为 0，不自动播放。
+
+现在 Web 里如果突然出现音乐会感觉很奇怪。
+
+因为一般人看网页都默认没有音乐，可能是因为他们没有准备好，突然放起音乐会吓人一跳。
+
+不仅是加载音乐需要带宽，而且音乐这个东西是要看气氛的，乱放音乐是不尊重读者。
+
