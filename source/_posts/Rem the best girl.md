@@ -13,4 +13,4 @@ categories:
 
 🎊おめでとう！
 
-![Rem](/images/4efd6b9d13bb97f4a052fe010f2a207b438d722f.jpg)
+![Rem](https://zccz14.com/images/4efd6b9d13bb97f4a052fe010f2a207b438d722f.jpg)
