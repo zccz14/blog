@@ -52,11 +52,11 @@ tags:
 
       + GITHUB_USERNAME: GitHub 的用户名
 
-      + GITHUB_PASSWORD: GitHub 的密码
+      + GITHUB_TOKEN: GitHub 令牌
 
-        确保此项的 `Display value in build log` 为关闭状态，否则你的密码可能会泄露。
+        生成方式：Settings > Personal access tokens > Generate new token。勾选`repo`中的 `public_repo` 权限即可。 
 
-        此项利用 GitHub 的 Personal Access Token 取代也是可以的，如果你觉得直接输入密码不妥的话。
+        > 这里用 GitHub 的密码也可以，但如果你的密码中包含可能影响 URL 解析的字符：`:/@#?` ，可能将导致 Git 崩溃从而泄露你的密码，比较危险。
 
       + GITHUB_EMAIL: GitHub 的邮箱
 
@@ -214,7 +214,7 @@ tags:
        - git init
        - git add .
        - git commit -m "Travis Deploy"
-       - git push -f -q https://$GITHUB_USERNAME:$GITHUB_PASSWORD@github.com/$GITHUB_USERNAME/$GITHUB_USERNAME.github.io master
+       - git push -f -q https://$GITHUB_TOKEN@github.com/$GITHUB_USERNAME/$GITHUB_USERNAME.github.io master
 ```
 
    然后你可以上 Travis CI 看它构建的过程，它会在最后将构建出来的东西推送到 `<username>.github.io` 那个Repository上，GitHub Pages服务会提供给你一个子域名：`<username>.github.io` 。
