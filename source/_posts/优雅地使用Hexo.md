@@ -32,11 +32,15 @@ tags:
 
 2. 注册一个 [Travis CI](https://travis-ci.org/) 账号，与刚刚注册的 GitHub 账号关联。
 
-3. 在 GitHub 上新建一个 Repository，名为 `<username>.github.io` ，如 `zccz14.github.io` 。
+3. 在 GitHub 上新建一个 Repository，名为 `<username>.github.io` ，如我的用户名为 `zccz14`，则这个 Repo 的名字必须为 `zccz14.github.io` ，最后这个 RepoURI 为 `git@github.com:zccz14/zccz14.github.io.git`。
+
+   **注意：这个 Repo 的名字不能随便起，GitHub Pages 服务会监测你的 `<username>.github.io` 是否存在，然后自动构建 Pages 服务。** 
 
 4. 再新建一个 Repository，名字随意，如 `blog`。
 
-   注意要勾选 Initialize this repository with a README 来进行初始化。
+   **注意**要勾选 Initialize this repository with a README 来进行初始化。
+
+   否则你将不能从 GitHub Web 上继续操作，如果你不会使用 Git 进行 Repo 的初始化，请删掉这个 Repo 然后重新建立并**初始化**。
 
 5. 在 Travis CI 中添加对 `blog` 这个 repository 的关联。
 
@@ -44,7 +48,7 @@ tags:
 
    1. 确保 `Build only if .travis.yml is present`, `Build pushes`, `Build pull requests` 处于打开状态。
 
-   2. 添加环境变量
+   2. **新建**如下环境变量：
 
       + GITHUB_USERNAME: GitHub 的用户名
 
@@ -64,7 +68,7 @@ tags:
 
       + THEME_NAME: 主题名
 
-        Hexo Theme 的主题名，如果你不知道应该填什么，就填一个`next`，其实这一项是什么根本无所谓。
+        Hexo Theme 的主题名，如果你不知道应该填什么，就填一个`next`，其实这一项是什么根本无所谓，**但是必须非空**。
 ​        
 7. 回到 GitHub 的 blog，创建文件 `package.json`：
 
