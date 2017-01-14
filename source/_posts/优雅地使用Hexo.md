@@ -221,9 +221,6 @@ tags:
 
    然后你就可以访问你的博客了：`https://<username>.github.io`。
 
-11. Have fun with GitHub & Travis CI & Hexo!
-
-
 ## 自定义的域名
 
 > 自定义域名需要自行购买，没有拥有域名的请跳过此步骤。
