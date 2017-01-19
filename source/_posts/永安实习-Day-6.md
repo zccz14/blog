@@ -26,7 +26,7 @@ double maxA = a.AsEnumerable().Reverse().Take(10).Max();
 
 本以为这个**取最后10个求最大值**的操作是 O(1) 的，没想到用了这个 Reverse 以后给我搞成了 O(n)——它将 a 中的元素逐个推入栈中，然后取出来 `yield return` 之。
 
-这导致我在 n 比较大的时候就开始爆炸，内存刷刷地上 GB，运行的很慢，Timeline 上遍布 GC 事件。
+这导致我在 n 比较大的时候就开始爆炸，内存刷刷地上 GB，运行得很慢，Timeline 上遍布 GC 事件。
 
 Reverse 的实现显然是没有为随机访问容器优化的，至少当前版本 .net framework 4.5.2 尚未优化，所以取最后 k 个数需要自己拓展实现一个 lazy 方法。
 
@@ -36,7 +36,7 @@ static class IListExtends {
     int i = list.Count - 1;
     while (n > 0 && i >= 0) {
       yield return list[i];
-      it--;
+      i--;
       n--;
     }
   }
