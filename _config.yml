@@ -43,3 +43,9 @@ time_format: 'HH:mm:ss'
 per_page: 10
 pagination_dir: page
 theme: next
+feed:
+  type: atom
+  path: atom.xml
+  limit: 0
+  hub:
+  content: true
