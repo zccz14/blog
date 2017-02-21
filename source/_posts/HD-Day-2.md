@@ -7,7 +7,9 @@ tags:
   - HD
 ---
 
-实训第二天，尹老师讲 Spring 框架。
+实训第二天，学习 Spring 框架。
+
+<!--more-->
 
 好久没写 Java 了，先搞一下 IDE。
 
