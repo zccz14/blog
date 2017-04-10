@@ -175,10 +175,7 @@ Listener 接口所定义的方法（函数）一定不是一个纯函数，它�
 
 
 
-
-
 ## 参考资料
 
 + [How to Write an Action Listener - The Java Tutorials](https://docs.oracle.com/javase/tutorial/uiswing/events/actionlistener.html)
-
 
