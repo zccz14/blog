@@ -120,7 +120,7 @@ import java.util.Set;
 public class SampleEventPublisher {
     private Set<SampleEventListener> listeners = new HashSet<>();
     public void publish() {
-        SampleEventObject e = new SampleEventObject();
+        SampleEventObject e = new SampleEventObject(this);
         // Lambda for Java 8+
         listeners.forEach(l -> l.onSampleEvent(e));
     }
@@ -131,7 +131,6 @@ public class SampleEventPublisher {
         listeners.remove(listener);
     }
 }
-
 
 ```
 
