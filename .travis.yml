@@ -17,4 +17,4 @@ after_success:
     - git init
     - git add .
     - git commit -m "Travis Deploy"
-    - git push -f -q https://$GITHUB_TOKEN@github.com/$GITHUB_USERNAME/$GITHUB_USERNAME.github.io master:gh-pages
+    - git push -f -q $GITHUB_URI master:gh-pages
