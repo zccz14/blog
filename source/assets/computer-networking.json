@@ -1,0 +1,438 @@
+{
+    "name": "Computer Networking",
+    "desc": "The ROOT node of Computer Networking",
+    "begin": null,
+    "end": null,
+    "keys": [],
+    "children": [
+        "Computer Networks and the Internet",
+        {
+            "name": "Application Layer",
+            "desc": "The Top Layer in TCP/IP Model",
+            "begin": "S2-1",
+            "end": "S2-95",
+            "keys": [
+                "reliability",
+                "bandwidth",
+                "delay"
+            ],
+            "children": [
+                {
+                    "name": "special protocols",
+                    "children": [
+                        "Web and HTTP",
+                        "FTP",
+                        "Email: SMTP, POP and IMAP",
+                        "DNS",
+                        "Search Engine"
+                    ]
+                },
+                "Socket Programming"
+            ]
+        },
+        {
+            "name": "Transport Layer",
+            "desc": "The layer providing logical communication between app running in difference hosts",
+            "keys": [
+                "multiplexing/demultiplexing",
+                "segment structure",
+                "reliability"
+            ],
+            "children": [
+                "UDP",
+                {
+                    "name": "rdt",
+                    "begin": "S3-16",
+                    "end": "S3-35",
+                    "keys": [
+                        "FSM",
+                        "Stop and Wait"
+                    ],
+                    "children": [
+                        "rdt1.0",
+                        "rdt2.0",
+                        "rdt2.1",
+                        "rdt2.2",
+                        "rdt3.0"
+                    ]
+                },
+                {
+                    "name": "Pipelined Protocols",
+                    "desc": "To solve the problems of stop and wait, bring up utilization",
+                    "children": [
+                        {
+                            "name": "Go-Back-N",
+                            "begin": "S3-38",
+                            "end": "S3-46",
+                            "children": []
+                        },
+                        {
+                            "name": "Selective Repeat",
+                            "begin": "S3-47",
+                            "end": "S3-52",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "TCP",
+                    "begin": "S3-53",
+                    "end": "",
+                    "children": [
+                        "segment structure",
+                        {
+                            "name": "reliable data transfer",
+                            "begin": "S3-58",
+                            "end": "S3-61",
+                            "children": []
+                        },
+                        {
+                            "name": "Flow Control",
+                            "desc": "The sender won't overflow receiver's buffer by transmitting too much or too fast",
+                            "begin": "S3-62",
+                            "end": "S3-67",
+                            "keys": [
+                                "speed-matching service",
+                                "RcvWindow",
+                                "RcvBuffer",
+                                "estimating RTT"
+                            ],
+                            "children": []
+                        },
+                        {
+                            "name": "Connection Management",
+                            "desc": "Manage the lifecycle of TCP connection: establish and close",
+                            "begin": "S3-68",
+                            "end": "S3-71",
+                            "children": []
+                        },
+                        {
+                            "name": "Congestion Control",
+                            "desc": "Control the data sent to the network",
+                            "begin": "S3-72",
+                            "end": "S3-94",
+                            "keys": [
+                                "Congestion Window (Congwin)",
+                                "Threshold",
+                                "Fairness"
+                            ],
+                            "children": [
+                                "principles",
+                                "slow start",
+                                "congestion avoidance"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Network Layer",
+            "desc": "The layer providing end-to-end transport service",
+            "begin": "S4-1",
+            "end": "S4-125",
+            "keys": [
+                "forwarding",
+                "routing"
+            ],
+            "children": [
+                "Virtual Circuits",
+                {
+                    "name": "Datagram Networks",
+                    "children": []
+                },
+                {
+                    "name": "Internet Protocol (IP)",
+                    "begin": "S4-31",
+                    "end": "S4-70",
+                    "keys": [
+                        "datagram format",
+                        "addressing"
+                    ],
+                    "children": [
+                        "datagram format",
+                        "Fragmentation and Reassembly",
+                        "IP Addressing",
+                        "Subnet",
+                        "IP Addresses",
+                        "Subnet Mask",
+                        "CIDR",
+                        {
+                            "name": "DHCP",
+                            "desc": "dynamically obtain IP address from network server",
+                            "begin": "S4-45",
+                            "end": "S4-50",
+                            "children": []
+                        },
+                        "Hierarchical Addressing",
+                        {
+                            "name": "Network Address Translation (NAT)",
+                            "desc": "local network uses just one IP address as far as outside world is concerned",
+                            "begin": "S4-56",
+                            "end": "S4-61",
+                            "keys": [
+                                "NAT Table",
+                                "Traversal Problem"
+                            ],
+                            "children": [
+                                "NAT Table",
+                                "Statically Configure",
+                                "UPnP"
+                            ]
+                        },
+                        {
+                            "name": "Internet Control Message Protocol (ICMP)",
+                            "desc": "communicate network-layer info between hosts and routers",
+                            "begin": "S4-62",
+                            "end": "S4-63"
+                        },
+                        {
+                            "name": "IPv6",
+                            "begin": "S4-64",
+                            "end": "",
+                            "children": [
+                                "Header",
+                                {
+                                    "name": "Transition From IPv4 to IPv6",
+                                    "children": [
+                                        "Tunneling",
+                                        "Dual Stack"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Routing Algorithms",
+                    "begin": "S4-71",
+                    "end": "S4-91",
+                    "keys": [
+                        "Global/Decentralized",
+                        "Static/Dynamic"
+                    ],
+                    "children": [
+                        {
+                            "name": "Link State",
+                            "desc": "A dynamic global routing algorithm based on Dijkstra's Shortest Path Algorithm",
+                            "begin": "S4-75",
+                            "end": "S4-80"
+                        },
+                        {
+                            "name": "Distance Vector",
+                            "desc": "A dynamic decentralized routing algorithm based on Bellman Fold's Shortest Path Algorithm",
+                            "begin": "S4-81",
+                            "end": "S4-90"
+                        },
+                        "LS vs DV"
+                    ]
+                },
+                {
+                    "name": "Autonomous System (AS)",
+                    "begin": "S4-92",
+                    "end": "S4-118",
+                    "children": [
+                        {
+                            "name": "Intra-AS Routing",
+                            "children": [
+                                {
+                                    "name": "Routing Information Protocol (RIP)"
+                                },
+                                {
+                                    "name": "Open Shortest Path First (OSPF)"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Inter-AS Routing",
+                            "children": [
+                                "Border Gateway Protol (BGP)"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Data Link Layer",
+            "desc": "The layer has responsibility of transferring datagram from one node to adjacent node over a link",
+            "keys": [
+                "node",
+                "link",
+                "MAC",
+                "NIC",
+                "flow control",
+                "error detection",
+                "error correction",
+                "half duplex / full duplex"
+            ],
+            "children": [
+                {
+                    "name": "Error Detection",
+                    "begin": "S5-8",
+                    "end": "S5-11",
+                    "children": [
+                        "Parity Checking",
+                        {
+                            "name": "Cyclic Redundancy Check (CRC)",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Multiple Access",
+                    "begin": "S5-12",
+                    "end": "",
+                    "children": [
+                        {
+                            "name": "Link Type",
+                            "children": [
+                                "point-to-point",
+                                "broadcast",
+                                "switched"
+                            ]
+                        },
+                        {
+                            "name": "Multiple Access Protocols",
+                            "begin": "S5-12",
+                            "end": "S5-31",
+                            "keys": [
+                                "Decentralized / Centralized",
+                                "Channel Partitioning / Random Access / Take Turns"
+                            ],
+                            "children": [
+                                {
+                                    "name": "Channel Partitioning Protocols",
+                                    "children": [
+                                        "TDMA",
+                                        "FDMA",
+                                        "CDMA"
+                                    ]
+                                },
+                                {
+                                    "name": "Random Access Protocols",
+                                    "begin": "S5-18",
+                                    "end": "S5-27",
+                                    "keys": [
+                                        "Collision Detection / Recovery"
+                                    ],
+                                    "children": [
+                                        "Slotted ALOHA",
+                                        "ALOHA",
+                                        "CSMA",
+                                        "CSMA/CD",
+                                        "CSMA/CA"
+                                    ]
+                                },
+                                {
+                                    "name": "Taking Turns Protocols",
+                                    "begin": "S5-28",
+                                    "end": "S5-30",
+                                    "children": [
+                                        "Bluetooth",
+                                        "FDDI",
+                                        "IBM Token Ring"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "MAC Address",
+                            "desc": "Get frame from one interface to another physically-connected interface in the same network",
+                            "begin": "S5-32",
+                            "end": "",
+                            "children": [
+                                {
+                                    "name": "Address Resolution Protocol (ARP)",
+                                    "begin": "S5-35",
+                                    "end": "",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Ethernet",
+                    "begin": "S5-39",
+                    "end": "S5-46",
+                    "children": []
+                },
+                "Manchester Encoding",
+                "Hub",
+                {
+                    "name": "Switch",
+                    "begin": "S5-50",
+                    "end": "S5-59"
+                },
+                "VLAN",
+                {
+                    "name": "Point-to-point Data Link Control (P2P-DLC)",
+                    "begin": "S5-65",
+                    "end": "S5-72"
+                },
+                "Network Visualization"
+            ]
+        },
+        {
+            "name": "Wireless Networking Foundation",
+            "keys": [
+                "wireless",
+                "mobility",
+                "multiple access"
+            ],
+            "children": [
+                "Types of Wireless Networks",
+                {
+                    "name": "Element of Wireless Networks",
+                    "children": [
+                        "wireless host",
+                        "base station",
+                        "wireless link"
+                    ]
+                },
+                {
+                    "name": "Architecture of Wireless Networks",
+                    "children": [
+                        "infrastructure mode",
+                        "ad hoc mode"
+                    ]
+                },
+                "CDMA",
+                {
+                    "name": "WLAN",
+                    "children": [
+                        {
+                            "name": "IEEE 802.11",
+                            "begin": "S6-17",
+                            "end": "S6-32",
+                            "children": [
+                                "Architecture",
+                                "Passive / Active Scanning",
+                                {
+                                    "name": "IEEE 802.11 Multiple Access",
+                                    "children": [
+                                        {
+                                            "name": "CSMA",
+                                            "keys": [
+                                                "Hidden Terminal Problem"
+                                            ],
+                                            "children": [
+                                                "CSMA/CA"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "addressing",
+                                "frame format"
+                            ]
+                        }
+                    ]
+                },
+                "IEEE 802.15: Personal Area Network",
+                "IEEE 802.16: WiMAX: World interoperability for wave access",
+                "Cellular"
+            ]
+        }
+    ]
+}
