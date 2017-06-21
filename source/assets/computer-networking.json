@@ -42,6 +42,7 @@
                 "UDP",
                 {
                     "name": "rdt",
+                    "desc": "reliable data transfer",
                     "begin": "S3-16",
                     "end": "S3-35",
                     "keys": [
