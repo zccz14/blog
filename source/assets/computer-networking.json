@@ -5,7 +5,23 @@
     "end": null,
     "keys": [],
     "children": [
-        "Computer Networks and the Internet",
+        {
+            "name": "Computer Networks and the Internet",
+            "keys": [
+                "protocol",
+                "host (end system)"
+            ],
+            "children": [
+                "Network Edge",
+                {
+                    "name": "Network Core",
+                    "children": [
+                        "Circuit Switching",
+                        "Packet Switching"
+                    ]
+                }
+            ]
+        },
         {
             "name": "Application Layer",
             "desc": "The Top Layer in TCP/IP Model",
