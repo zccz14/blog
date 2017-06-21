@@ -1,0 +1,211 @@
+缩略词,全称,简要解释,定义索引,引用索引
+10BASE-T,,10Mbps 基带传输 双绞线(T),,S5-84
+A,Address,地址，DNS记录,S2-63,S2-63
+ACK,Acknowledgement,确认信息,S3-18,"S3-18, S3-19, S3-20, S3-21, S3-22, S3-23, S3-24, S3-25, S3-26, S3-27, S3-28, S3-29, S3-30, S3-31, S3-32, S3-33, S3-34, S3-35, S3-36, S3-37, S3-38, S3-39, S3-40, S3-41, S3-42, S3-44, S3-47, S3-48, S3-49, S3-50, S3-51, S3-52, S3-55, S3-56, S3-57, S3-58, S3-59, S3-60, S3-61, S3-64, S3-65, S3-68, S3-69, S3-70, S3-71, S3-81, S3-83, S3-84, S3-85, S3-86, S3-87, S3-89, S4-47"
+ADSL,Asymmetric Digital Subscriber Line,非对称数字用户线路,S1-13,"S1-13, H1"
+AIMD,Additive Increase Multiplicative Decrease,加性增乘性减,S3-92,S3-92
+ALOHA,Additive Link On-link Hawaii System,,S5-19,"S5-18, S5-19"
+ALOHAnet,ALOHA Network,ALOHA网络，夏威夷大学开发的,S1-62,S1-62
+AOL,American Online,美国在线，ISP,,S1-12
+AON,Active Optical Network,有源光纤网络,S1-18,S1-18
+AP,Access Point,接入点,S6-4,S6-4
+API,Application Programming Interface,应用编程接口,S2-1,"S2-1, S2-8, S2-68"
+ARP,Address Resolution Protocol,地址解析协议,S5-35,S0-11
+ARPAnet,The Advanced Research Projects Agency Network,阿帕网,S1-61,"S1-61, S1-62, S1-64"
+ARQ,Automatic Repeat Request,自动重复请求，rdt2.0中的机制,S3-18,S3-18
+AS,Autonomous System,自治系统（层次化的路由系统）,S4-93,S4-93
+ASCII,American Standard Code for Information Interchange,美国信息交换标准代码，是一种编码方式,S2-23,"S2-23, S2-39, S2-42, S2-46, S2-47, S2-51, S2-92, S2-94"
+ASN,Abstract Syntax Notation,抽象语法标记,,S0-15
+AT&T,American Telephone & Telegraph,美国电话电报公司，美国电信公司,S1-34,S1-34
+ATM,Asynchronous Transfer Mode,异步传输模式,S1-62,"S1-62, H1, S4-5, S4-12"
+ATM ABR,ATM Available Bit Rate,ATM 可用位率（一种QoS）,S3-79,"S3-78, S3-79, S3-80"
+ATM CBR,ATM Constant Bit Rate,ATM 恒定位率（一种QoS）,S4-7,S4-7
+ATM UBR,ATM Unspecified Bit Rate,ATM 未指定位率（一种QoS）,S4-7,S4-7
+ATM VBR,ATM Variable Bit Rate,ATM 可变位率（一种QoS）,S4-7,S4-7
+BER,Bit Error Rate,位差错率,,S6-11
+BGP,Border Gateway Protocol,边界网关协议，用于AS间的路由协议,S4-110,"S4-17, S4-30, S4-110"
+BITNet,Because It's Time Network,一种联接世界教育单位的计算机网络,S1-63,S1-63
+BMP,,,S2-52,S2-52
+BPSK,Binary Phase Shift Keying,二进制相移键控，模拟信号转数字信号,S6-11,S6-11
+BS,Base Station,基站,S6-35,S6-35
+BSD,Berkeley Software Distribution,伯克利软件套件，UNIX衍生系统,S2-68,S2-68
+BSS,Basic Service Set,基础服务集（一个AP形成的网络）,S6-18,S6-18
+C/S,Client/Server,,S2-70,"S2-70, S2-71, S2-74, S2-82, S2-84, S2-89, S4-47"
+C3,Category 3,"第三类网络线, 10Mbps",S1-21,S1-21
+C5,Category 5,"第五类网络线, 100Mbps",S1-21,S1-21
+C5+,Category 5 Plus,"超五类网络线, 1000Mbps",S1-21,S1-21
+C6,Category 6,"第六类网络线, 2500Mbps",S1-21,S1-21
+"CAIDA, UWisc","Center for Applied Internet Data Analysis, University of Wisconsin",威斯康星大学应用互联网数据分析中心,,S1-54
+CDMA,Code Division Multiple Access,码分多址,S6-13,"S0-12, S1-26"
+CI,Congestion Indication,CI bit：拥塞指示位，RM cell,S3-80,S3-80
+CIDR,Classless Inter-Domain Routing,无类别域间路由,S4-43,S4-43
+CMTS,Cable Modem Termination System,线缆调制解调器终端系统,S1-15,S1-15
+CNAME,Canonical Name,（域名的）别名，DNS记录,S2-63,S2-63
+CPU,,,,S4-20
+CRC,Cyclic Redundancy Check,循环冗余校对,S5-10,S5-10
+CSMA,Carrier Sense Multiple Access,载波侦听多路访问,S5-24,S5-18
+CSMA/CA,CSMA/Collision Avoidance,,S5-18,S5-18
+CSMA/CD,CSMA/Collision Detection,载波侦听多路访问/碰撞检测,S5-18,S5-18
+CSNet,Computer Science Network,计算机科学网，用于计算机科学系，后与BITNET并入CERN,S1-63,S1-63
+CTS,Clear-To-Send,接受发送权申请（类似批准总线占用）,S6-24,S6-24
+DA,Destination Address,目的（IP）地址,S4-14,"S4-14, S4-15"
+DDoS,Distributed Denial of Service,分布式拒绝服务，一种网络攻击,S1-53,S1-53
+DECbit,,,,S3-78
+DECnet,Digital Equipment Corporation Network,数字设备公司网络，是数字设备公司推出并支持的一组协议集合,S1-62,S1-62
+DHCP,Dynamic Host Configuration Protocol,动态主机配置协议,S4-44,"S2-92, S4-44, S4-45, S4-46, S4-47, S4-48"
+DIFS,Distributed Inter-Frame Space,分布式帧间间隔,S6-22,S6-22
+DLC,Data Link Control,链路控制,S5-65,S5-65
+DNS,Domain Name Server,域名系统,S2-54,",S0-8, S1-63, H1, S2-1, S2-54, S2-55, S2-56, S2-57, S2-58, S2-59, S2-60, S2-61, S2-62, S2-63, S2-64, S2-65, S2-76, S2-89, S3-10, S4-48"
+DoS,Denial of Service,拒绝服务，一种网络攻击,S1-55,S1-55
+DSL,Digital Subscriber Line,数字用户线路,,"S1-13, S1-14"
+DSLAM,Digital Subscriber Line Access Multiplexer,数字用户线路接入复用器,S1-13,S1-13
+DV,Distance Vector,距离矢量，一种动态分布式路由算法(Bellman-Ford),S4-81,"S4-74, S4-81"
+eBGP,external BGP,外部边界网关协议，用于AS与AS间的通讯,S4-112,S4-112
+EDC,Error Detection and Correction,差错侦测与纠错,S5-8,S5-8
+EDGE,Enhanced Data rates for Global Evolution,2.5G,S6-38,S6-38
+EFCI,Explicit Forward Congestion Indication,EFCI bit：显式前向拥塞指示位，data cell,S3-80,S3-80
+EIGRP,Enhanced Interior Gateway Routing Protocol,增强的内部网关路由协议，Cisco 专有,S4-99,S4-99
+ER,Explicit Rate,显式速率指定，2 bytes，RM cell,S3-80,S3-80
+EVDO,Evolution Data Only,中国电信的3G技术,S1-20,S1-20
+FDM,Frequency Division Multiplexing,频分复用,S1-27,S1-27
+FDMA,Frequency Division Multiple Access,频分多路访问,S5-17,S5-17
+FIN,Finish,结束，TCP Flag,S3-54,"S3-54, S3-70, S3-71"
+FSM,Finite State Machine,有限状态机,S3-16,"S3-16, S3-17, S3-19, S3-27, S3-28, S3-31, S3-41, S3-42, S3-42, S3-86"
+FTP,File Transfer Protocol,文件传输协议,S2-37,"S0-8, S1-49, S1-63, S1-67, H1, S2-14, S2-37, S2-38, S2-39, S2-89"
+FTTH,Fiber To The Home,光纤入户,S1-18,S1-18
+GBN,Go-Back-N,一种固定发送窗口大小的流水线发包算法,S3-38,"S3-36, S3-38, S3-39, S3-40, S3-41, S3-42, S3-43, S3-44, S3-45, S3-46"
+GIF,,,S2-52,S2-52
+GMT,Greenwich Mean Time,格林尼治标准时间,S2-25,S2-25
+GPRS,General Packet Radio Service,2.5G,S6-38,S6-38
+GSM,Global System for Mobile communication,全球移动通讯系统,,S6-6
+HDLC,High-level Data Link Control,高层链路控制,S5-65,S5-65
+HFC,Hybrid Fiber Coaxial,混合光纤同轴电缆网,S1-14,"S1-14, S1-22, H1, S5-12"
+HOL,Head-Of-the-Line,HOL blocking：交换设备的输入队列阻塞现象,S4-26,S4-26
+HSDPA,High Speed Downlink Packet Access,高速下行包接入，3G技术,S6-6,S1-20
+HTML,HyperText Markup Language,超文本标记语言,S1-64,"S1-64, S2-15, S2-20, S2-25"
+HTTP,HyperText Transfer Protocol,超文本传输协议,S2-16,"S0-8, S1-6, S1-49, S1-64, H1, S2-1, S2-9, S2-10, S2-14, S2-15, S2-16, S2-17, S2-18, S2-19, S2-20, S2-21, S2-22, S2-23, S2-24, S2-25, S2-26, S2-27, S2-28, S2-30, S2-34, S2-35, S2-39, S2-46, S2-48, S2-89"
+iBGP,internal BGP,内部边界网关协议，用于AS内部的通讯,S4-112,S4-112
+ICANN,The Internet Corporation for Assigned Names and Numbers,互联网名称与数字地址分配机构,S4-54,S2-57
+ICMP,Internet Control Message Protocol,Internet 控制报文协议，例如Ping,S4-62,"S4-30, S4-62"
+ICP,Internet Content Provider,网络内容提供商（ICP备案）,S2-35,S2-35
+IEEE,Institute of Electrical and Electronics Engineers,电气和电子工程师协会,,S0-11
+IETF,Internet Engineering Task Force,,,"S1-6, S2-62"
+IGD,Internet Gateway Device protocol,Internet 网关设备协议,S4-61,S4-61
+IGP,Interior Gateway Protocol,内部网关协议，用于自治系统内部的路由协议,S4-99,S4-99
+IM,Instant Messaging,即时通讯,S1-64,"S1-64, S2-2"
+IMAP,Internet Mail Access Protocol,（Internet）交互式邮件存取协议，能读能写,S2-1,"S2-1, S2-48, S2-50, S2-89"
+IMAP4,,IMAP v4,,S2-94
+IP,Internet Protocol,互联网协议,S4-31,"S0-10, S1-6, S1-58, S1-63, S1-67, S2-4, S2-5, S2-6, S2-9, S2-54, S2-55, S2-58, S2-60, S2-61, S2-63, S2-69, S2-72, S2-74, S2-76, S2-77, S2-79, S2-81, S2-92, S3-5, S3-6, S3-7, S3-8, S3-9, S3-62, S4-2, S4-30, S4-31, S4-32, S4-33, S4-34, S4-35, S4-38, S4-40, S4-41, S4-43, S4-44, S4-45, S4-48, S5-68"
+IPCP,IP Control Protocol,IP 控制协议,S5-72,S5-68
+IPsec,Internet Protocol Security,Internet协议安全性标准,,S0-14
+IPv4,Internet Protocol version 4,第四代 IP 协议,,S4-67
+IPv6,Internet Protocol version 6,第六版互联网协议,S4-64,"S0-10, S4-1, S4-59, S4-64"
+ISDN,Integrated Services Digital Network,综合业务数字网，是一种典型的电路交换网络系统,H1,H1
+IS-IS,Intermediate System-to-Intermediate System,中间系统到中间系统（路由协议）,,S5-80
+ISO/OSI,International Standard Organization / Open System Interconnect,开放式网络互联，七层模型,S1-50,"S1-50, H1, S2-91"
+ISP,Internet Service Provider,,,"S0-6, S1-4, S1-12, S1-14, S1-19, S1-34, S1-36, S1-37, S1-38, H1, S2-59"
+JPEG,Joint Photographic Experts Group,联合图像专家小组发明的一种图像压缩标准,S2-15,"S2-15, S2-20, S2-51, S2-52, S2-53"
+LAN,Local Area Network,局域网,,"S0-11, S1-68, H1, S2-31, S2-32, S2-33, S4-58, S4-59"
+LS,Link State,连接状态，一种动态全局路由算法(Dijkstra),S4-75,S4-75
+MAC,Media Address Control,媒体地址控制,,S5-4
+MAN,Metropolitan Area Network,城域网,H1,H1
+MANET,Mobile ad hoc Network,移动自组织网络,S6-9,S6-9
+MIME,Multipurpose Internet Mail Extension,多用途互联网邮件拓展类型，RFC 2045，RFC2056,S2-51,"S2-51, S2-52, S2-53"
+MOSPF,Multicast OSPF,多播形式的OSPF,S4-107,S4-107
+MpegX,,,S2-52,S2-52
+MPLS,Multi-Protocol Label Switching,多协议标签交换,,S5-83
+MS,Master,,,S0-4
+MSS,Maximum Segment Size,最大段大小,S3-53,"S3-53, S3-54, S3-89"
+MTU,Maximum Transmission Unit,最大传输单元（bytes）,S4-32,"S4-32, S4-33"
+MX,Mail eXchanger,邮件服务器地址，DNS记录,S2-63,S2-63
+NAK,Negative Acknowledgement,反向确认信息，表明没收到,S3-18,"S3-18, S3-19, S3-20, S3-21, S3-22, S3-23, S3-24, S3-25, S3-26"
+NAP,,,,S0-6
+NAT,Network Address Translation,网络地址转换,S4-55,"S4-55, S4-56, S4-57, S4-59"
+NAV,Network Allocation Vector,网络分配矢量,,"S6-22, S6-24"
+NCP,Network Control Protocol,网络控制协议,S1-61,S1-61
+NFS,Network File System,网络文件系统,,"S2-94, S3-10"
+NI,No Increase,NI bit：非增指示位，RM cell,S3-80,S3-80
+NIC,Network Interface Card,网卡,S5-6,S5-6
+NS,Name Server,域名服务器地址，DNS记录,S2-63,S2-63
+NSF,National Science Fund,美国国家科学基金会,S1-64,S1-64
+NSFNet,National Science Fund Network,美国国家科学基金会资助的网络，研究用,S1-63,"S1-63, S1-64"
+OLT,Optical Line Terminal,光线路终端,S1-18,S1-18
+ONT,Optical Network Terminal,光纤网络终端,S1-18,S1-18
+OS,Operating System,,,"S1-3, S2-7, S2-8, S2-22, S2-68, S2-72"
+OSPF,Open Shortest Path First,开放的最短路径优先（协议），使用LS算法,S4-106,"S4-17, S4-30, S4-99"
+P2P,Peer to Peer,对等网络,S1-64,"S1-64, S1-65, S2-1, S2-2, S2-3, S2-5, S2-6, S2-89, S3-53, S4-59"
+PC,Personal Computer,,,"S1-4, S1-12, S1-13, S1-17, S2-27"
+PCMCI,,,,S5-6
+PDA,Personal Digital Assistant,掌上电脑,,S6-1
+PDU,Protocol Data Unit,协议数据单元,,S1-51
+PON,Passive Optical Network,无源光纤网络,S1-18,S1-18
+POP,Point Of Presence,出现点，ISP的边缘,S1-35,S1-35
+POP,Post Office Protocol,邮局协议，主要是下载邮件,S2-48,"S2-48, S2-89"
+POP3,Post Office Protocol v3,邮局协议3，主要是下载邮件,S2-49,"S2-1, S2-48, S2-49, S2-50, S2-94"
+PPP,the Point-to-Point Protocol,点对点协议,,"S0-11, S1-49, S5-12"
+PPP-LCP,PPP Link Control Protocol,PPP链路控制协议,,S5-68
+PSH,PuSH data now,立即将TCP段压入网络层，TCP Flag，通常不用,S3-54,S3-54
+QAM,Quadrature Amplitude Modulation,正交振幅调制,S6-11,S6-11
+QoS,Quality of Service,服务质量（丢包，时延，吞吐量，安全性）,S2-11,"S2-11, S4-6"
+rdt,reliable data transfer (protocol),,S3-14,"S3-14, S3-15, S3-16, S3-17, S3-19, S3-20, S3-21, S3-22, S3-23, S3-24, S3-25, S3-26, S3-27, S3-28, S3-29, S3-30, S3-31, S3-32, S3-33, S3-34, S3-35, S3-41, S3-42, S3-45"
+RFC,Request For Comments,,,"S1-6, S2-10, S2-14, S2-37, S2-42, S2-47, S2-48, S2-51, S2-62, S3-11, S3-59, S4-25"
+RIP,Routing Information Protocol,路由信息协议，运用DV算法,S4-100,"S3-10, S4-17, S4-30, S4-99"
+RM cell,Resource Management cell,资源管理信元,S3-79,S3-79
+RR,Resource Record,资源记录，DNS记录,S2-63,"S2-63, S2-64, S2-65"
+RST,Reset,重置，TCP Flag,S3-54,S3-54
+RSVP,Resource Reservation Protocol,资源预留协议,,S0-13
+RTP,Real-time Transport Protocol,实时传输协议，多媒体通讯,S2-14,"S2-14, S3-10"
+RTS,Request-To-Send,请求发送权（类似申请总线）,S6-24,S6-24
+RTT,Round Trip Time,一次请求到返回的时间,S2-21,"S2-21, S2-22, S3-37, S3-65, S3-66, S3-67, S3-83, S3-87, S3-90, S3-91, S3-92, S4-25"
+SIFS,Short Inter-Frame Space,短帧间间隔,S6-22,S6-22
+SIP,Session Initiation Protocol,会话初始协议，多媒体通讯,S2-14,S2-14
+SMTP,Simple Mail Transport Protocol,简单邮件传输协议,S2-42,"S1-49, S1-63, S1-67, H1, S2-1, S2-10, S2-14, S2-40, S2-41, S2-42, S2-43, S2-44, S2-45, S2-46, S2-47, S2-48, S2-89, S2-94"
+SNA,Systems Network Architecture,IBM 系统网络体系结构,S1-62,S1-62
+SNA,,,,S3-78
+SNMP,Simple Network Management Protocol,简单网络管理协议,,"S0-15, S2-94"
+SNR,Signal-to-Noise Ratio,信噪比,S6-11,S6-11
+SR,Selective Repeat,选择重传，一种流水线发包算法,S3-47,"S3-45, S3-47, S3-48, S3-49, S3-50, S3-51, S3-52"
+SSID,Service Set Identifier,服务集标识符,S6-19,S6-19
+SSL,Secure Sockets Layer,安全套接层,,S0-14
+STP,Spanning Tree Protocol,生成树协议,S5-89,S5-89
+SYN,Synchronize,同步（开始连接），TCP Flag,S3-54,"S3-54, S3-68, S3-69, S3-71"
+TCP,Transmission Control Protocol,传输控制协议,S3-53,"S0-9, S1-6, S1-49, S1-63, S1-67, H1, S2-8, S2-13, S2-14, S2-17, S2-18, S2-19, S2-20, S2-21, S2-22, S2-38, S2-42, S2-43, S2-68, S2-70, S2-75, S2-80, S2-81, S2-82, S2-83, S2-84, S2-85, S2-86, S2-87, S2-88, S2-89, S2-91, S3-1, S3-3, S3-5, S3-8, S3-38, S3-45, S3-53, S3-55, S3-56, S3-58, S3-59, S3-60, S3-61, S3-62, S3-63, S3-64, S3-65, S3-66, S3-68, S3-69, S3-70, S3-71, S3-78, S3-81, S3-82, S3-83, S3-84, S3-85, S3-86, S3-88, S3-89, S3-90, S3-91, S3-92, S3-93, S3-94, S3-95, S4-30, S4-31"
+TCP/IP,Transmission Control Protocol/Internet Protocol,传输控制协议/因特网互联协议，又名网络通讯协议,,"S1-63, H1, S2-91"
+TCP/IP ECN,,,,S3-78
+TDM,Time Division Multiplexing,时分复用,S1-27,"S1-27, S1-28"
+TDMA,Time Division Multiple Access,时分多路访问,S5-16,S5-16
+TD-SCDMA,Time-Division Synchronous Code Division Multiple Access,时分同步码分多路访问，3G,S6-39,S6-39
+TFTP,Trivial File Transfer Protocol,简易文件传输协议，类似 FTP,S1-67,"S1-67, S2-94, S3-10"
+TIFF,,,S2-52,S2-52
+TLD,Top Level Domain,顶层DNS服务器,S2-58,"S2-56, S2-58, S2-60, S2-61, S2-62"
+TOS,Type Of Service,服务类型标记,S4-107,S4-107
+TPDU,Transport Protocol Data Unit,传输协议数据单元,S3-4,S3-4
+TTL,,,,"S4-62, S4-63"
+TV,,,,"S0-2, S1-17"
+UA,User Agent,用户代理,S2-40,"S2-40, S2-41, S2-43"
+UDP,User Datagram Protocol,用户数据报协议,S3-9,"S0-9, S1-49, S1-67, S2-13, S2-14, S2-68, S2-71, S2-72, S2-74, S2-75, S2-76, S2-77, S2-78, S2-79, S2-89, S2-91, S3-1, S3-3, S3-5, S3-7, S3-9, S3-10, S3-11, S3-12, S3-53, S3-94, S3-95, S4-30, S4-31"
+udt,unreliable data transfer (protocol),,S3-14,"S3-14, S3-15, S3-17, S3-19, S3-20, S3-21, S3-23, S3-24, S3-27, S3-28, S3-30, S3-31, S3-41, S3-42"
+UMTS,Universal Mobilie Telecommunications Service,3G,S6-39,S6-39
+UPnP,Universal Plug and Play,通用即插即用（接口）,S4-61,S4-61
+URG,URGent data,紧急数据，TCP Flag，通常不用,S3-54,"S3-54, S3-90"
+URL,Uniform Resoure Locator,统一资源定位器,S2-15,"S2-15, S2-19, S2-24, S2-66, S2-67, S2-93"
+VANET,Vehicular ad hoc Network,车载自组织网络,S6-9,S6-9
+VC,Virtual Circuit,虚拟电路,S4-9,"S4-5, S4-6, S4-9, S4-10, S4-11, S4-12, S4-16"
+VLAN,Virtual Local Area Network,虚拟局域网,S5-61,S5-60
+VM,Virtual Machine,虚拟机,,S5-73
+VoIP,Voice over Internet Protocol,网络电话,,"S1-7, S1-65, S2-2, S2-6"
+WAN,Wireless Access Network,无线接入网络,S1-20,"S1-20, H1, S4-58"
+WAP,Wireless Application Protocol,无线应用协议，用于无线设备的上网,H1,H1
+WBAN,Wireless Body Area Network,无线体域网,S6-2,S6-2
+WDM,Wavelength Division Multiplexing,波分复用,S1-26,S1-26
+Wi-Fi,Wireless Fidelity,基于IEEE 802.11b标准的无线局域网,,S1-23
+WiMAX,Worldwide Interoperability for Microwave Access,全球微波互联接入，4G技术,S1-20,"S1-20, S6-6"
+WINS,Windows Internet Name Service,Windows 网络名称服务,S2-92,S2-92
+WLAN,Wireless Local Area Network,无线局域网,S6-2,"S0-12, S1-20, S1-23"
+WMAN,Wireless Metropolitan Area Network,无线城域网,S6-2,S6-2
+WMN,Wireless Mesh Network,无线网状网,S6-2,S6-2
+WPAN,Wireless Personal Area Network,无线私人网,S6-2,S6-2
+WSN,Wireless Sensor Network,无线传感网,S6-2,S6-2
+WWAN,Wireless Wide Area Network,无线广域网,S6-2,S6-2
+Xerox PARC,Xerox Palo Alto Research Center,施乐帕克研究中心,S1-62,S1-62
+XNA,X Next-generation Architecture,微软开发的基于DirectX的游戏开发环境（？？？）,S1-62,S1-62
