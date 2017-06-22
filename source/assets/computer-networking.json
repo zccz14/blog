@@ -63,14 +63,30 @@
                     "end": "S3-35",
                     "keys": [
                         "FSM",
+                        "Channel",
                         "Stop and Wait"
                     ],
                     "children": [
-                        "rdt1.0",
-                        "rdt2.0",
-                        "rdt2.1",
-                        "rdt2.2",
-                        "rdt3.0"
+                        {
+                            "name": "rdt1.0",
+                            "desc": "Use the most naive rdt1.0 if underlying channel perfectly reliable"
+                        },
+                        {
+                            "name": "rdt2.0",
+                            "desc": "If underlying channel may flip bits in packet, use rdt2.0 at least"
+                        },
+                        {
+                            "name": "rdt2.1",
+                            "desc": "Evolve rdt2.1 because of ACK/NAK correcting and packet duplicating"
+                        },
+                        {
+                            "name": "rdt2.2",
+                            "desc": "Integrate segment number into ACK message, making NAK-free."
+                        },
+                        {
+                            "name": "rdt3.0",
+                            "desc": "If undelying channel may error or loss packets, add timer to retransmit packet."
+                        }
                     ]
                 },
                 {
@@ -79,12 +95,18 @@
                     "children": [
                         {
                             "name": "Go-Back-N",
+                            "desc": "Sorry, go back and retransmit them starting from the corrupt position",
                             "begin": "S3-38",
                             "end": "S3-46",
+                            "keys": [
+                                "Cumulative ACK",
+                                "No Receiver Buffer"
+                            ],
                             "children": []
                         },
                         {
                             "name": "Selective Repeat",
+                            "desc": "Only retransmit the lost packets",
                             "begin": "S3-47",
                             "end": "S3-52",
                             "children": []
@@ -93,10 +115,27 @@
                 },
                 {
                     "name": "TCP",
+                    "desc": "The most practiced transport-layer protocol nowadays",
                     "begin": "S3-53",
-                    "end": "",
+                    "end": "S3-94",
+                    "keys": [
+                        "reliable",
+                        "congestion control",
+                        "flow control",
+                        "connection",
+                        "pipelined",
+                        "Cumulative ACK",
+                        "fast-retransmit",
+                        "full duplex"
+                    ],
                     "children": [
-                        "segment structure",
+                        {
+                            "name": "segment structure",
+                            "desc": "support full duplex in a single connection because of symmetric sender/receiver segment structure",
+                            "keys": [
+                                "full duplex"
+                            ]
+                        },
                         {
                             "name": "reliable data transfer",
                             "begin": "S3-58",
@@ -109,12 +148,15 @@
                             "begin": "S3-62",
                             "end": "S3-67",
                             "keys": [
-                                "speed-matching service",
                                 "RcvWindow",
                                 "RcvBuffer",
-                                "estimating RTT"
+                                "speed-matching service"
                             ],
                             "children": []
+                        },
+                        {
+                            "name": "Timeout Estimating",
+                            "desc": "Dynamically estimating TCP Timeout by statistical methods"
                         },
                         {
                             "name": "Connection Management",
@@ -129,6 +171,7 @@
                             "begin": "S3-72",
                             "end": "S3-94",
                             "keys": [
+                                "Decentralized Sender Self-Control",
                                 "Congestion Window (Congwin)",
                                 "Threshold",
                                 "Fairness"
@@ -136,7 +179,23 @@
                             "children": [
                                 "principles",
                                 "slow start",
-                                "congestion avoidance"
+                                {
+                                    "name": "congestion avoidance",
+                                    "children": [
+                                        {
+                                            "name": "Tahoe Alogorithm",
+                                            "desc": "Reset CongWin to 1 when congestion"
+                                        },
+                                        {
+                                            "name": "Reno Algorithm",
+                                            "desc": "half Congwin when light congestion",
+                                            "keys": [
+                                                "AIMD",
+                                                "Fairness"
+                                            ]
+                                        }
+                                    ]
+                                }
                             ]
                         }
                     ]
