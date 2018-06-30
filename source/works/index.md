@@ -61,14 +61,3 @@ title: 著作集
 
   2017 年 1 月。
 
-## 书籍
-
-+ 高等数学中的神奇方法与哲学
-
-  *Amazing Methods & Philosophy in Advanced Mathematics*，正在重新排版。
-
-  LaTeX 排版，开源至 [GitHub](https://github.com/zccz14/AMAP)。
-
-  2017 年 1 月。
-
-  ​
