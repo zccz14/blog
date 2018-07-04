@@ -1,5 +1,5 @@
-title: Redo
-subtitle: Stay Alive
+title: 'Re:'
+subtitle: 'Recovery'
 description: null
 author: zccz14
 language: zh-Hans
@@ -16,8 +16,6 @@ category_dir: categories
 code_dir: code
 i18n_dir: ':lang'
 skip_render:
-  - demo/xjtu-index/**
-  - demo/to-freshmen/**
 search:
   path: search.xml
   field: post
