@@ -6,7 +6,7 @@ language: zh-Hans
 timezone: null
 url: 'https://zccz14.github.io'
 root: /
-permalink: ':year/:month/:day/:title/'
+permalink: ':year/:month/:day/:post_title/'
 permalink_defaults: null
 source_dir: source
 public_dir: public
