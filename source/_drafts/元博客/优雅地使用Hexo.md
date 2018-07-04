@@ -1,8 +1,8 @@
 ---
 title: 优雅地使用 Hexo 
 date: 2016-12-30 19:53:28
-categories: 技术
-tags:
+categories: 
+  - 博客
 ---
 
 介绍一下我是怎么使用 Hexo 的。
