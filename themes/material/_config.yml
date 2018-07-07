@@ -20,7 +20,7 @@ head:
 url:
     rss: atom.xml
     daily_pic: "#"
-    logo: "#"
+    logo: "https://github.com/zccz14"
 
 
 # ---------------------------------------------------------------
@@ -34,7 +34,7 @@ scheme: Paradox
 
 # UI & UX: slogan, color, effect
 uiux:
-    slogan: "宁静致远"
+    slogan: 淡泊明志 宁静致远
     theme_color: "#0097A7"
     theme_sub_color: "#00838F"
     hyperlink_color: "#00838F"
@@ -71,8 +71,8 @@ background:
 
 # Images Settings
 img:
-    logo: "/img/logo.png"
-    avatar: "https://cn.gravatar.com/userimage/95696885/81f721b7afe33bde12a0c2d65ccc38fc.jpeg"
+    logo: "https://avatars0.githubusercontent.com/u/12707521?s=460&v=4"
+    avatar: "https://avatars0.githubusercontent.com/u/12707521?s=460&v=4"
     daily_pic: "/img/daily_pic.png"
     sidebar_header: "/img/sidebar_header.png"
     random_thumbnail: "/img/random/material-"
@@ -202,8 +202,8 @@ materialcdn:
 # Available value of "use":
 #     disqus | disqus_click | changyan | 163gentie
 comment:
-    use:
-    shortname: # duoshuo or disqus shortname
+    use: disqus_click
+    shortname: zccz14
     changyan_appid:
     changyan_conf:
     changyan_thread_key_type: path
