@@ -2,7 +2,7 @@
 title: Rem the best girl
 date: 2017-01-02 00:16:50
 categories:
-  - 生活
+  - 二次元
 thumbnail: https://zccz14.com/images/4efd6b9d13bb97f4a052fe010f2a207b438d722f.jpg
 ---
 
