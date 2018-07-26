@@ -64,7 +64,8 @@ thumbnail:
 #         type available value: A (animal), C (culture), N (nature), S (space), T (travel)
 background:
     purecolor: "#F5F5F5"
-    bgimg: "//api.i-meto.com/bing?cat=N&color=White"
+    # bgimg: "//api.i-meto.com/bing?cat=N&color=White"
+    bgimg: "/img/bg/1.jpg"
     bing:
         enable: false
         parameter:
