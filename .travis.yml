@@ -5,7 +5,6 @@ before_install:
     - git config --global user.email $GITHUB_EMAIL
     - git config --global user.name $GITHUB_USERNAME
     - yarn global add hexo-cli
-    - git clone $IMAGE_URI source/images
 script:
     - hexo clean
     - hexo generate
@@ -13,5 +12,5 @@ after_success:
     - cd public
     - git init
     - git add .
-    - git commit -m "Travis Deploy"
+    - git commit -m "Travis CI Deploy"
     - git push -f -q $GITHUB_URI master:gh-pages
