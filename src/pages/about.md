@@ -1,23 +1,19 @@
 ---
-title: "About"
-date: "2018-07-19"
-author: "Radek"
+title: "关于"
+date: "2019-11-03"
 path: "/about"
 ---
 
-## Hi there
+我是 zccz14，目前靠被雇佣写代码恰饭，已经从技术博客党里退休了。
 
-My name is Radek and I'm the author of this starter. I made it to help you present your ideas easier.
+兴趣是弹钢琴，但目前还是个弱鸡。
 
-We all know how hard is to start something on the web, especially these days. You need to prepare a bunch of stuff, configure them and when that’s done — create the content.
+想保持有趣！想想成为一个温柔，帅气，又强大的人！
 
-This starter is pretty basic and covers all of the essentials. All you have to do is start typing!
+想体验世界上各种新奇的事情！想领略璀璨的人类文明和壮丽的自然风光！
 
-The starter includes:
+“淡泊明志，宁静致远”
 
-- **light/dark mode**, depending on your preferences
-- great reading experience thanks to [**Inter UI font**](https://rsms.me/inter/), made by [Rasmus Andersson](https://rsms.me/about/)
-- nice code highlighting thanks to [**PrismJS**](https://prismjs.com)
-- responsive youtube/vimeo etc. videos thanks to [**gatsby-remark-embed-video**](https://github.com/borgfriend/gatsby-remark-embed-video)
+淡泊并非无欲无求，而是有着更加高远的追求和欲望；
 
-So, there you have it... enjoy!
+宁静亦非默默无闻，而是有着坚定不移的前行的意志。

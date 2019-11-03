@@ -54,6 +54,10 @@
   font-size: 18px;
 }
 
+.text {
+  font-family: monospace, 'Courier New', Courier;
+}
+
 .right {
   display: flex;
   position: relative;
