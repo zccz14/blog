@@ -1,6 +1,6 @@
 ---
-title: "Cheers for Gastby"
-path: "/cheers-for-gastby"
+title: "Cheers for Gatsby"
+path: "/cheers-for-gatsby"
 date: "2019-11-03"
 tags: ['Life']
 ---
